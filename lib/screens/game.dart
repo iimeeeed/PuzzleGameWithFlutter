@@ -281,7 +281,7 @@ class _MygameState extends State<Mygame> with SingleTickerProviderStateMixin {
     int emptyRow = gridSize - 1;
     int emptyCol = gridSize - 1;
 
-    for (int i = 0; i < 6; i++) {
+    for (int i = 0; i < 100; i++) {
       List<List<int>> possibleMoves = [];
 
       if (emptyRow > 0) possibleMoves.add([emptyRow - 1, emptyCol]);
